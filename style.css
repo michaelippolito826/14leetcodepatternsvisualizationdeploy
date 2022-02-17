@@ -10,7 +10,7 @@
 .visual{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 
     font-size: 30px;
 
@@ -27,5 +27,13 @@
 }
 
 .start_pointer{
+    grid-row: 1;
+}
+
+.visual_content{
     grid-row: 2;
+}
+
+.right_pointer{
+    grid-row: 3;
 }
